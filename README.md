@@ -1,4 +1,4 @@
-# Deep ensemble differentiation of glioblastoma from solitary brain metastasis: empirical estimation of uncertainty
+# Deep ensemble differentiation of glioblastoma from solitary brain metastasis: Empirical estimation of uncertainty
 Jupyter notebook files for training and testing deep ensembles for differentiating glioblastoma (GBM) from solitary brain metastasis (SBM) using MRI images. This model provides uncertainty and interpretability etimation. 
 
 # Data 
@@ -10,6 +10,9 @@ Three different cohorts are used in the study:
 2. External cohort of 143 (GBM 101, SBM 42) patients was used for external testing: 
 + External test set (n=143; GBM 101, SBM 42)
 3. Out-of-distribution (OOD) dataset of 257 meningioma patients was used for OOD evaluation. 
+
+# Data preprocessing
+Python is used for MRI image preprocessing. 
 # Training and evaluation
 Python is used for training and evaluation. 
 ## Model
